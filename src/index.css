@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gradient-dark-blue: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    --gradient-dark-cyan: linear-gradient(135deg, #06b6d4 0%, #0e7490 100%);
+    --gradient-blue-cyan: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Emoji support */
+  .text-5xl, .text-6xl {
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+  }
+
+  body.dark {
+    @apply bg-gradient-to-br from-dark-100 via-dark-200 to-dark-300 text-gray-100;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom Cursor - hide default on desktop */
+  @media (min-width: 1024px) {
+    * {
+      cursor: none !important;
+    }
+    a, button {
+      cursor: none !important;
+    }
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-600;
+  }
+
+  .gradient-text-dark {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-700;
+  }
+
+  .dark .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
+  }
+
+  .btn-primary {
+    @apply px-8 py-3 bg-gradient-to-r from-red-600 to-purple-600 text-white rounded-full font-semibold 
+    shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300;
+  }
+
+  .dark .btn-primary {
+    @apply bg-gradient-to-r from-red-700 to-purple-700 shadow-red-900/50 hover:shadow-purple-900/50;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 border-2 border-red-600 text-red-600 dark:text-red-400 dark:border-red-500
+    rounded-full font-semibold hover:bg-gradient-to-r hover:from-red-600 hover:to-purple-600 hover:text-white hover:border-transparent
+    dark:hover:from-red-700 dark:hover:to-purple-700 transition-all duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center mb-12 gradient-text;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/10 dark:bg-black/30 border border-white/20 dark:border-purple-500/20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200;
+}
+
+.dark ::-webkit-scrollbar-track {
+  @apply bg-dark-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-red-500 to-purple-600 rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-red-700 to-purple-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-red-600 to-purple-700;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply from-red-600 to-purple-700;
+}
+
+/* Toggle Switch Styles */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #dc2626 0%, #9333ea 100%);
+  transition: 0.4s;
+  border-radius: 34px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+  background: linear-gradient(135deg, #991b1b 0%, #6b21a8 100%);
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(30px);
+}
+
+.toggle-slider:after {
+  content: '☀️';
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+
+input:checked + .toggle-slider:after {
+  content: '🌙';
+  left: auto;
+  right: 8px;
+}
+
+/* Page Section Transitions */
+section {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Smooth section entry */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
