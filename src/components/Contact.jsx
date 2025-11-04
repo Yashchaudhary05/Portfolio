@@ -158,7 +158,7 @@ const Contact = () => {
                 className="mt-8"
               >
                 <a
-                  href="/portfolio/Yash_Chaudhary_Resume.pdf"
+                  href="/Portfolio/Yash_Chaudhary_Resume.pdf"
                   download="Yash_Chaudhary_Resume.pdf"
                   className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-gradient-to-r 
                              from-red-600 to-purple-600 text-white rounded-xl font-semibold shadow-lg 
