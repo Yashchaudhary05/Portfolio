@@ -128,7 +128,7 @@ const Hero = () => {
                 className="relative block w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white dark:border-dark-100 shadow-2xl shadow-blue-500/20 dark:shadow-blue-900/50 cursor-pointer"
               >
                 <ImageWithSkeleton
-                  src="/Portfolio/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Yash Chaudhary"
                   className="w-full h-full object-cover"
                   containerClassName="w-full h-full"

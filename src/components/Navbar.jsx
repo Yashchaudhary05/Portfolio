@@ -78,7 +78,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             
             {/* Download Resume Button */}
             <motion.a
-              href="/Portfolio/Yash_Chaudhary_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Yash_Chaudhary_Resume.pdf`}
               download="Yash_Chaudhary_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -150,7 +150,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               
               {/* Download Resume Button - Mobile */}
               <motion.a
-                href="/Portfolio/Yash_Chaudhary_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Yash_Chaudhary_Resume.pdf`}
                 download="Yash_Chaudhary_Resume.pdf"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
