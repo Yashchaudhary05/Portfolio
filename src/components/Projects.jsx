@@ -31,6 +31,22 @@ const Projects = () => {
       confidential: true,
     },
     {
+      title: 'DevOps CI/CD Pipeline — End-to-End',
+      period: 'Mar 2026 - Present',
+      description: 'Engineered a production-grade CI/CD pipeline automating the entire software delivery lifecycle — from code commit to containerized deployment using Docker, GitHub Actions, and Ansible with zero manual intervention.',
+      features: [
+        'Fully automated pipeline: Test → Build → Push → Deploy',
+        'Multi-stage Docker builds with Alpine (46.8MB image)',
+        'Ansible-driven deployment with health check verification',
+        'GitHub Actions with caching, secrets, and artifact management',
+      ],
+      tech: ['Docker', 'GitHub Actions', 'Ansible', 'Node.js', 'CI/CD', 'IaC'],
+      image: 'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&q=80',
+      color: 'from-emerald-500 to-cyan-600',
+      githubLink: 'https://github.com/Yashchaudhary05/Automated_Portfolio',
+      liveLink: '',
+    },
+    {
       title: 'AWS CSA C03 Practice Quiz Website',
       period: 'Sep 2024 - Nov 2024',
       description: 'Built a comprehensive web-based platform for AWS CSA C03 certification exam preparation with result tracking and performance analytics.',
