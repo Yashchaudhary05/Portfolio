@@ -59,8 +59,8 @@ const Projects = () => {
       tech: ['AWS EC2', 'Apache', 'JavaScript', 'HTML/CSS'],
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
       color: 'from-orange-500 to-red-600',
-      githubLink: '#',
-      liveLink: '#',
+      githubLink: '',
+      liveLink: '',
     },
     {
       title: 'T2DM Diabetes Detection System',
@@ -75,8 +75,8 @@ const Projects = () => {
       tech: ['Python', 'Scikit-learn', 'Pandas', 'NumPy'],
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
       color: 'from-green-500 to-teal-600',
-      githubLink: '#',
-      liveLink: '#',
+      githubLink: '',
+      liveLink: '',
     },
     {
       title: 'Social Media Dashboard',
@@ -91,8 +91,8 @@ const Projects = () => {
       tech: ['React.js', 'CSS Grid', 'AWS EC2', 'Load Balancer'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
       color: 'from-blue-500 to-purple-600',
-      githubLink: '#',
-      liveLink: '#',
+      githubLink: '',
+      liveLink: '',
     },
   ]
 

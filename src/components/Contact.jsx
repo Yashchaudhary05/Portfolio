@@ -52,7 +52,7 @@ const Contact = () => {
       icon: <FaMapMarkerAlt className="text-3xl" />,
       title: 'Location',
       value: 'Bengaluru, India',
-      link: '#',
+      link: 'https://maps.google.com/maps?q=Bengaluru,+India',
       color: 'from-blue-500 to-cyan-500',
     },
     {
