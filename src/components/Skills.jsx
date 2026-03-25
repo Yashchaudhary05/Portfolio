@@ -89,6 +89,14 @@ const Skills = () => {
       icon: '⚡',
       color: 'from-purple-400 to-pink-500',
     },
+    {
+      name: 'Salesforce AI Associate',
+      issuer: 'Salesforce',
+      date: '2024',
+      description: 'Foundational AI concepts and implementation',
+      icon: '🌟',
+      color: 'from-indigo-400 to-purple-500',
+    },
   ]
 
   // Auto-rotate certifications every 5 seconds
@@ -292,7 +300,7 @@ const Skills = () => {
             className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
           >
             {[
-              { number: '3', label: 'Certifications' },
+              { number: '4', label: 'Certifications' },
               { number: '15+', label: 'Technologies' },
               { number: '5+', label: 'Major Projects' },
               { number: '1+', label: 'Year @ Cisco' },
