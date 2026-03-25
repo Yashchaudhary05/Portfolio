@@ -78,7 +78,7 @@ const Skills = () => {
     {
       name: 'Cisco Certified Network Associate (CCNA)',
       issuer: 'Cisco',
-      date: '2024',
+      date: '2025',
       description: 'Network fundamentals, IP connectivity, and network security',
       icon: <SiCisco className="text-6xl" />,
       color: 'from-blue-400 to-cyan-500',
