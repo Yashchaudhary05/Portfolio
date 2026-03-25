@@ -125,7 +125,7 @@ const About = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Cloud & Networking</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['AWS', 'CCNA', 'VPC', 'IAM', 'Lambda', 'EC2'].map((tech, i) => (
+                      {['AWS (SA-C03)', 'EC2', 'RDS', 'Aurora', 'Lambda', 'ECS/ECR', 'IAM', 'VPC', 'ALB/NLB', 'CloudWatch', 'CloudTrail'].map((tech, i) => (
                         <span key={i} className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
                           {tech}
                         </span>

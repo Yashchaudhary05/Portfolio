@@ -32,12 +32,14 @@ const Skills = () => {
       ],
     },
     {
-      title: 'Cloud (AWS)',
+      title: 'Cloud (AWS — Solutions Architect)',
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'EC2 / S3 / RDS', icon: <FaAws />, level: 90 },
-        { name: 'Lambda', icon: <FaAws />, level: 78 },
-        { name: 'VPC / IAM', icon: <FaAws />, level: 85 },
+        { name: 'EC2 / S3 / RDS / Aurora', icon: <FaAws />, level: 90 },
+        { name: 'Lambda / ECS / ECR', icon: <FaAws />, level: 85 },
+        { name: 'IAM / VPC / CloudTrail', icon: <FaAws />, level: 88 },
+        { name: 'ALB / NLB / CloudWatch', icon: <FaAws />, level: 85 },
+        { name: 'Amazon Q / Well-Architected', icon: <FaAws />, level: 78 },
       ],
     },
     {
