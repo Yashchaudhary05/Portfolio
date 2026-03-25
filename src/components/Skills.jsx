@@ -6,8 +6,7 @@ import {
   FaDatabase, FaJenkins, FaChevronLeft, FaChevronRight
 } from 'react-icons/fa'
 import { 
-  SiMongodb, SiExpress, SiMysql, SiPostgresql, SiJavascript, 
-  SiTailwindcss, SiAnsible, SiKubernetes, SiTypescript, SiCisco
+  SiMongodb, SiJavascript, SiAnsible, SiKubernetes, SiCisco
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -21,48 +20,46 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Cloud & DevOps',
+      title: 'DevOps & CI/CD',
       color: 'from-orange-500 to-red-500',
       skills: [
-        { name: 'AWS', icon: <FaAws />, level: 90 },
-        { name: 'Docker', icon: <FaDocker />, level: 85 },
-        { name: 'Jenkins', icon: <FaJenkins />, level: 60 },
-        { name: 'Ansible', icon: <SiAnsible />, level: 75 },
+        { name: 'Docker', icon: <FaDocker />, level: 90 },
+        { name: 'GitHub Actions', icon: <FaGithub />, level: 88 },
+        { name: 'Jenkins', icon: <FaJenkins />, level: 65 },
+        { name: 'Ansible', icon: <SiAnsible />, level: 80 },
         { name: 'Kubernetes', icon: <SiKubernetes />, level: 60 },
         { name: 'Linux', icon: <FaLinux />, level: 85 },
       ],
     },
     {
-      title: 'Frontend Development',
+      title: 'Cloud (AWS)',
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'React.js', icon: <FaReact />, level: 90 },
-        { name: 'JavaScript', icon: <SiJavascript />, level: 88 },
-        { name: 'TypeScript', icon: <SiTypescript />, level: 60 },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
-        { name: 'HTML/CSS', icon: <FaReact />, level: 95 },
+        { name: 'EC2 / S3 / RDS', icon: <FaAws />, level: 90 },
+        { name: 'Lambda', icon: <FaAws />, level: 78 },
+        { name: 'VPC / IAM', icon: <FaAws />, level: 85 },
       ],
     },
     {
-      title: 'Backend Development',
+      title: 'Programming',
       color: 'from-green-500 to-teal-500',
       skills: [
+        { name: 'Python', icon: <FaPython />, level: 88 },
         { name: 'Node.js', icon: <FaNode />, level: 83 },
-        { name: 'Express.js', icon: <SiExpress />, level: 80 },
-        { name: 'Python', icon: <FaPython />, level: 82 },
+        { name: 'React', icon: <FaReact />, level: 85 },
+        { name: 'JavaScript', icon: <SiJavascript />, level: 85 },
         { name: 'MongoDB', icon: <SiMongodb />, level: 77 },
-        { name: 'MySQL', icon: <SiMysql />, level: 75 },
-        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 73 },
       ],
     },
     {
-      title: 'Tools & Others',
+      title: 'Concepts & Tools',
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'Git/GitHub', icon: <FaGithub />, level: 90 },
-        { name: 'CI/CD', icon: <FaJenkins />, level: 85 },
+        { name: 'IaC / Terraform', icon: <SiAnsible />, level: 70 },
+        { name: 'AIOps / Observability', icon: <FaDatabase />, level: 82 },
         { name: 'Microservices', icon: <FaDocker />, level: 80 },
-        { name: 'REST APIs', icon: <FaDatabase />, level: 88 },
+        { name: 'System Design', icon: <FaDatabase />, level: 75 },
+        { name: 'Git / JIRA', icon: <FaGithub />, level: 90 },
       ],
     },
   ]
@@ -91,14 +88,6 @@ const Skills = () => {
       description: 'AI-powered solutions and intelligent automation',
       icon: '⚡',
       color: 'from-purple-400 to-pink-500',
-    },
-    {
-      name: 'Salesforce AI Associate',
-      issuer: 'Salesforce',
-      date: '2024',
-      description: 'Foundational AI concepts and implementation',
-      icon: '🌟',
-      color: 'from-indigo-400 to-purple-500',
     },
   ]
 
@@ -303,7 +292,7 @@ const Skills = () => {
             className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
           >
             {[
-              { number: '4', label: 'Certifications' },
+              { number: '3', label: 'Certifications' },
               { number: '15+', label: 'Technologies' },
               { number: '5+', label: 'Major Projects' },
               { number: '1+', label: 'Year @ Cisco' },

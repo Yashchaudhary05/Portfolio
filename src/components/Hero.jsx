@@ -180,13 +180,13 @@ const Hero = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-2">
               <TypeAnimation
                 sequence={[
-                  'Network & Cloud Engineer',
+                  'Cloud & DevOps Engineer',
                   2000,
-                  'Full Stack Developer',
-                  2000,
-                  'DevOps Enthusiast',
+                  'AI-Driven Observability',
                   2000,
                   'CI/CD Automation',
+                  2000,
+                  'Infrastructure as Code',
                   2000,
                 ]}
                 wrapper="span"
@@ -196,7 +196,7 @@ const Hero = () => {
               />
             </h2>
             <h3 className="text-xl md:text-2xl text-gray-600 dark:text-gray-400">
-              Automation • Testing • Deployment • CCNA
+              Automation • Observability • AIOps • CCNA
             </h3>
           </motion.div>
 
@@ -208,8 +208,8 @@ const Hero = () => {
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl lg:max-w-none mb-8"
           >
             Network & Cloud Engineer at <span className="font-semibold text-blue-600 dark:text-blue-400">Cisco</span>, 
-            specializing in DevOps automation, deployment, and testing. Passionate about building scalable infrastructure 
-            and automating workflows for seamless production deployments.
+            specializing in CI/CD pipelines, infrastructure automation, and AI-driven observability systems. 
+            Building scalable, production-grade systems with a focus on reliability and automation.
           </motion.p>
 
           {/* CTA Buttons */}

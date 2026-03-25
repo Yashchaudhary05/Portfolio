@@ -14,16 +14,16 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Cisco Customer Dashboard',
+      title: 'AI-Powered Observability Dashboard',
       period: 'Apr 2025 - Present',
-      description: 'Built a fully functioning customer interaction dashboard using Django framework that increased user engagement by 80%, replacing traditional CLI-generated files with an interactive web interface. (Cisco Confidential)',
+      description: 'Built an AI-driven observability platform with anomaly detection and root cause analysis using LLM-based pipelines, improving system usability and interaction efficiency by 80%. (Cisco Confidential)',
       features: [
-        '80% increase in user interaction',
-        'Interactive graphs using Plotly and Dash',
-        'Real-time data visualization and analytics',
-        'Appreciated by Solutions Architect and Manager',
+        'GPT-4.1 powered KPI anomaly detection system',
+        'Natural language interface for querying system metrics',
+        'Automated root cause analysis with parametric prompting',
+        'Guard-railed AI workflows with SQL-safe query generation',
       ],
-      tech: ['Django', 'Python', 'Plotly', 'Dash', 'HTML/CSS', 'JavaScript'],
+      tech: ['Python', 'GPT-4.1', 'MongoDB', 'Prompt Engineering', 'AIOps', 'Observability'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
       color: 'from-cyan-500 to-blue-600',
       githubLink: '',

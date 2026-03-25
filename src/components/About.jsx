@@ -16,13 +16,13 @@ const About = () => {
     },
     {
       icon: <FaCode className="text-4xl" />,
-      title: 'Full Stack Developer',
-      description: 'React, Node.js, Python, MERN Stack Development',
+      title: 'DevOps & Automation',
+      description: 'CI/CD, GitHub Actions, Docker, Ansible, Terraform, IaC',
     },
     {
       icon: <FaRocket className="text-4xl" />,
-      title: 'DevOps Enthusiast',
-      description: 'Ansible, CI/CD, Automation, Testing & Deployment',
+      title: 'AIOps & Observability',
+      description: 'AI-driven anomaly detection, RCA pipelines, prompt engineering',
     },
     {
       icon: <FaLightbulb className="text-4xl" />,
@@ -75,13 +75,13 @@ const About = () => {
               <div className="bg-white dark:bg-dark-100 rounded-2xl p-8 shadow-xl border dark:border-blue-900/30">
                 <h3 className="text-2xl font-bold mb-4 gradient-text">Who I Am</h3>
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                  I'm a <span className="font-semibold text-blue-600 dark:text-blue-400">Network & Cloud Engineer at Cisco</span>, 
-                  where I specialize in DevOps automation, deployment, and testing. My role involves building scalable infrastructure 
-                  and automating workflows for seamless production deployments.
+                  I'm a <span className="font-semibold text-blue-600 dark:text-blue-400">Cloud and DevOps Engineer at Cisco</span>, 
+                  where I specialize in building scalable CI/CD pipelines, infrastructure automation, and AI-driven observability 
+                  systems. My role involves designing production-grade systems with a focus on reliability, automation, and system-level optimization.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                  With a strong foundation in full-stack development and cloud technologies, I bridge the gap between development 
-                  and operations, ensuring robust and efficient systems.
+                  With a strong foundation in cloud technologies and AI-powered systems, I bridge the gap between development 
+                  and operations, building systems that are automated, observable, and production-ready.
                 </p>
               </div>
 
@@ -90,23 +90,23 @@ const About = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
                     <span className="text-green-500 text-xl mt-1">✓</span>
-                    <span><span className="font-semibold">Ansible Scripting & Automation:</span> Deploying production environments in customer VMs</span>
+                    <span><span className="font-semibold">AI-Powered Observability:</span> Building anomaly detection and RCA systems with LLM pipelines</span>
                   </li>
                   <li className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
                     <span className="text-green-500 text-xl mt-1">✓</span>
-                    <span><span className="font-semibold">CI/CD Pipelines:</span> Building and maintaining automated deployment workflows</span>
+                    <span><span className="font-semibold">CI/CD Pipelines:</span> Designing automated build, test, and deployment workflows</span>
                   </li>
                   <li className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
                     <span className="text-green-500 text-xl mt-1">✓</span>
-                    <span><span className="font-semibold">Infrastructure as Code (IaC):</span> Managing cloud infrastructure programmatically</span>
+                    <span><span className="font-semibold">Infrastructure as Code (IaC):</span> Ansible, Terraform, and automated MOP workflows</span>
                   </li>
                   <li className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
                     <span className="text-green-500 text-xl mt-1">✓</span>
-                    <span><span className="font-semibold">Testing & Quality Assurance:</span> Comprehensive testing to ensure reliable releases</span>
+                    <span><span className="font-semibold">Testing & Reliability:</span> 1000+ regression tests, production-grade QA</span>
                   </li>
                   <li className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
                     <span className="text-green-500 text-xl mt-1">✓</span>
-                    <span><span className="font-semibold">Full Stack Development:</span> React, Node.js, MongoDB, and AWS solutions</span>
+                    <span><span className="font-semibold">System Design:</span> Microservices, observability, and AIOps architectures</span>
                   </li>
                 </ul>
               </div>
@@ -125,7 +125,7 @@ const About = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Cloud & Networking</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['AWS', 'Azure', 'CCNA', '4G/5G', 'VPC', 'Load Balancers'].map((tech, i) => (
+                      {['AWS', 'CCNA', 'VPC', 'IAM', 'Lambda', 'EC2'].map((tech, i) => (
                         <span key={i} className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -135,7 +135,7 @@ const About = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">DevOps & Automation</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['Ansible', 'Docker', 'Jenkins', 'GitLab CI/CD', 'Terraform'].map((tech, i) => (
+                      {['Ansible', 'Docker', 'GitHub Actions', 'Jenkins', 'Terraform'].map((tech, i) => (
                         <span key={i} className="px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -145,7 +145,7 @@ const About = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Development</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['React.js', 'Node.js', 'Python', 'MongoDB', 'Django', 'Express.js'].map((tech, i) => (
+                      {['Python', 'Node.js', 'React', 'MongoDB', 'Linux', 'Git'].map((tech, i) => (
                         <span key={i} className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -161,13 +161,13 @@ const About = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
                     <span className="text-gray-700 dark:text-gray-300">
-                      <span className="font-semibold">Advanced Docker & Kubernetes</span> - Container orchestration and microservices
+                      <span className="font-semibold">Advanced Kubernetes & Terraform</span> - Container orchestration and IaC at scale
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse"></div>
                     <span className="text-gray-700 dark:text-gray-300">
-                      <span className="font-semibold">Advanced Kubernetes</span> - Container orchestration at scale
+                      <span className="font-semibold">AIOps & Observability</span> - AI-driven monitoring and incident response
                     </span>
                   </div>
                 </div>
