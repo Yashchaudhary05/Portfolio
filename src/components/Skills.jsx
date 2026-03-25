@@ -86,7 +86,7 @@ const Skills = () => {
     {
       name: 'Salesforce AI Specialist',
       issuer: 'Salesforce',
-      date: '2024',
+      date: '2025',
       description: 'AI-powered solutions and intelligent automation',
       icon: '⚡',
       color: 'from-purple-400 to-pink-500',
