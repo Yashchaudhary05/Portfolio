@@ -161,7 +161,7 @@ const About = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
                     <span className="text-gray-700 dark:text-gray-300">
-                      <span className="font-semibold">Cisco DevNet Associate</span> - Network automation and programmability
+                      <span className="font-semibold">Advanced Docker & Kubernetes</span> - Container orchestration and microservices
                     </span>
                   </div>
                   <div className="flex items-center gap-3">

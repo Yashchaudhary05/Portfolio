@@ -13,7 +13,7 @@ const Experience = () => {
       title: 'Software Engineer Trainee',
       company: 'Cisco',
       location: 'Bengaluru, India',
-      period: 'April 2025 - Present (7 months)',
+      period: 'April 2025 - Present (1+ year)',
       type: 'Full-time',
       achievements: [
         'Increased user interaction by 80% by developing a fully functioning dashboard for customers to interact with, replacing CLI-generated files',
@@ -24,7 +24,7 @@ const Experience = () => {
         'Improved user satisfaction by 15% through systematic testing and iterative refinement of the AT&T customer interface',
         'Optimized mobility services by deepening expertise in the 4G and 5G domains, enhancing service reliability',
         'Troubleshot critical data inconsistencies in customer dashboard by collaborating with backend and frontend teams',
-        'Achieved CCNA certification and currently preparing for DevNet certification',
+        'Achieved CCNA certification while working in production network environments',
       ],
       color: 'from-blue-500 to-cyan-500',
     },

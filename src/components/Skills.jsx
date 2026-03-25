@@ -306,7 +306,7 @@ const Skills = () => {
               { number: '4', label: 'Certifications' },
               { number: '15+', label: 'Technologies' },
               { number: '5+', label: 'Major Projects' },
-              { number: '7+', label: 'Months @ Cisco' },
+              { number: '1+', label: 'Year @ Cisco' },
             ].map((stat, index) => (
               <motion.div
                 key={index}

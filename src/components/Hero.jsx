@@ -186,7 +186,7 @@ const Hero = () => {
                   2000,
                   'DevOps Enthusiast',
                   2000,
-                  'DevNet Aspirant',
+                  'CI/CD Automation',
                   2000,
                 ]}
                 wrapper="span"
