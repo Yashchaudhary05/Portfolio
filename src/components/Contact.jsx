@@ -27,8 +27,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Here you would typically send the form data to a backend service
-    setStatus('Message sent successfully! I\'ll get back to you soon.')
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+    const mailtoUrl = `mailto:yashch1077@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`
+    window.open(mailtoUrl, '_self')
+    setStatus('Opening your email client...')
     setFormData({ name: '', email: '', subject: '', message: '' })
     setTimeout(() => setStatus(''), 5000)
   }

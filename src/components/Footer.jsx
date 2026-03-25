@@ -37,10 +37,10 @@ const Footer = () => {
               Yash Chaudhary
             </motion.h3>
             <p className="text-gray-400 mb-4">
-              Network & Cloud Engineer | Full Stack Developer | DevOps Specialist
+              Cloud & DevOps Engineer | AIOps & Observability | CI/CD Automation
             </p>
             <p className="text-gray-500 text-sm">
-              Building innovative solutions with cutting-edge technology.
+              Automating infrastructure, building observable systems, shipping with confidence.
             </p>
           </div>
 

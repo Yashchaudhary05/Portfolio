@@ -60,7 +60,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
       color: 'from-orange-500 to-red-600',
       githubLink: '',
-      liveLink: '',
+      liveLink: 'https://yashchaudhary05.github.io/aws_csa_c03-practice-quiz-website/',
     },
     {
       title: 'T2DM Diabetes Detection System',
@@ -75,7 +75,7 @@ const Projects = () => {
       tech: ['Python', 'Scikit-learn', 'Pandas', 'NumPy'],
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
       color: 'from-green-500 to-teal-600',
-      githubLink: '',
+      githubLink: 'https://github.com/Yashchaudhary05/pima',
       liveLink: '',
     },
     {

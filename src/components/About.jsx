@@ -262,10 +262,10 @@ const About = () => {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="text-6xl mb-4">🌟</div>
-                  <h4 className="text-2xl font-bold text-white mb-2">Manager's Appreciation</h4>
-                  <p className="text-white/90 text-lg">80% increase in user engagement through Django Dashboard</p>
+                  <h4 className="text-2xl font-bold text-white mb-2">Connected Cisco Recognition</h4>
+                  <p className="text-white/90 text-lg">Recognized for AI system design & observability contributions</p>
                   <div className="mt-4 flex items-center gap-2">
-                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2024</span>
+                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2025</span>
                   </div>
                 </div>
               </motion.div>
@@ -280,10 +280,10 @@ const About = () => {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="text-6xl mb-4">🏆</div>
-                  <h4 className="text-2xl font-bold text-white mb-2">Solutions Architect Recognition</h4>
-                  <p className="text-white/90 text-lg">Excellence in Dashboard Development & Design</p>
+                  <h4 className="text-2xl font-bold text-white mb-2">YubiKey Access Award</h4>
+                  <p className="text-white/90 text-lg">Awarded as one of the youngest team members for trusted contributions</p>
                   <div className="mt-4 flex items-center gap-2">
-                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2024</span>
+                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2025</span>
                   </div>
                 </div>
               </motion.div>
@@ -298,10 +298,10 @@ const About = () => {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                 <div className="relative">
                   <div className="text-6xl mb-4">⚡</div>
-                  <h4 className="text-2xl font-bold text-white mb-2">Fast Delivery</h4>
-                  <p className="text-white/90 text-lg">Delivered 200+ comprehensive test cases in just 20 days</p>
+                  <h4 className="text-2xl font-bold text-white mb-2">Testing Excellence</h4>
+                  <p className="text-white/90 text-lg">200+ test cases & 1000+ regression tests in production environments</p>
                   <div className="mt-4 flex items-center gap-2">
-                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2024</span>
+                    <span className="px-3 py-1 bg-white/20 rounded-full text-sm text-white">Cisco 2025</span>
                   </div>
                 </div>
               </motion.div>
