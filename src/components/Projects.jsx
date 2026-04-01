@@ -80,19 +80,19 @@ const Projects = () => {
     },
     {
       title: 'Social Media Dashboard',
-      period: 'Feb 2024 - Apr 2024',
-      description: 'Created a modern social media dashboard with dark mode toggle and responsive design, achieving a 20% increase in user engagement.',
+      period: 'Feb 2024 - Apr 2026',
+      description: 'Modern analytics dashboard tracking 6 platforms (Meta, Instagram, X, YouTube, LinkedIn, GitHub) with live auto-refresh, glassmorphism UI, Chart.js trend charts, PWA support, and full CI/CD pipelines deploying to GitHub Pages and AWS (EC2 + ALB via CloudFormation & Terraform).',
       features: [
-        'Dark mode toggle with smooth transitions',
-        'Responsive CSS grid layouts',
-        'AWS EC2 deployment with load balancers',
-        '20% increase in user engagement',
+        'Live auto-refresh (30s) with animated counters & Chart.js trend charts',
+        'PWA — installable, offline-capable via service worker',
+        'Docker (Nginx Alpine) + GitHub Actions CI/CD pipeline',
+        'AWS infra as code: CloudFormation & Terraform (VPC, EC2, ALB, ASG)',
       ],
-      tech: ['React.js', 'CSS Grid', 'AWS EC2', 'Load Balancer'],
+      tech: ['JavaScript', 'Chart.js', 'Docker', 'GitHub Actions', 'AWS', 'Terraform', 'CloudFormation', 'Nginx'],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
       color: 'from-blue-500 to-purple-600',
-      githubLink: '',
-      liveLink: '',
+      githubLink: 'https://github.com/Yashchaudhary05/Social_Media_Dashboard',
+      liveLink: 'https://yashchaudhary05.github.io/Social_Media_Dashboard/',
     },
   ]
 
